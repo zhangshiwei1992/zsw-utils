@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="disabledFileTypes" value="jsp;html;tag;xml;properties;ftl;factories" />
+        <option name="formatSeletedTextInAllFileTypes" value="false" />
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1486784580374" />
+        <option name="importOrderConfigFilePath" value="$APPLICATION_CONFIG_DIR$/my-setting/EclipseFormatter/DefaultImportorder.importorder" />
+        <option name="name" value="Default-Conventions" />
+        <option name="optimizeImports" value="false" />
+        <option name="pathToConfigFileJava" value="$APPLICATION_CONFIG_DIR$/my-setting/EclipseFormatter/Default-Conventions.xml" />
+        <option name="selectedJavaProfile" value="Default Conventions" />
+        <option name="useForLiveTemplates" value="true" />
+      </Settings>
+    </option>
+  </component>
+</project>

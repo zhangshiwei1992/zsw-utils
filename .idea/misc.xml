@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CommitMessageTemplateConfig">
+    <option name="manualTemplate" value="# &lt;type&gt;: 标题行，50个字符以内，描述主要变更内容&#10;&#10;# 主体内容：更详细的说明文本，建议72个字符以内。 需要描述的信息包括:&#10;#&#10;# * 为什么这个变更是必须的? 它可能是用来修复一个bug，增加一个feature，提升性能、可靠性、稳定性等等&#10;# * 他如何解决这个问题? 具体描述解决问题的步骤&#10;# * 是否存在副作用、风险? &#10;&#10;# 尾部：如果需要的化可以添加一个链接到issue地址或者其它文档，或者关闭某个issue。&#10;&#10;# ------------------------- type类型说明 -------------------------&#10;# type代表某次提交的类型，比如是修复一个bug还是增加一个新的feature。所有的type类型如下：&#10;# feature: 新增feature&#10;# fix: 修复bug&#10;# docs: 仅仅修改了文档，比如README, CHANGELOG, CONTRIBUTE等等&#10;# style: 仅仅修改了空格、格式缩进、都好等等，不改变代码逻辑&#10;# refactor: 代码重构，没有加新功能或者修复bug&#10;# performance: 优化相关，比如提升性能、体验&#10;# test: 测试用例，包括单元测试、集成测试等&#10;# chore: 改变构建流程、或者增加依赖库、工具等&#10;# revert: 回滚到上一个版本&#10;&#10;# ------------------------- Commit message 的格式说明 -------------------------&#10;&#10;&lt;type&gt;(&lt;scope&gt;): &lt;subject&gt;&#10;// 空一行&#10;&lt;body&gt;&#10;// 空一行&#10;&lt;footer&gt;&#10;&#10;# 每次提交，Commit message 都包括三个部分：Header，Body 和 Footer。&#10;# 其中，Header 是必需的，Body 和 Footer 可以省略。&#10;# 不管是哪一个部分，任何一行都不得超过72个字符（或100个字符）。这是为了避免自动换行影响美观。&#10;# scope用于说明 commit 影响的范围，比如数据层、控制层、视图层等等，视项目不同而不同。&#10;# subject是 commit 目的的简短描述，不超过50个字符。" />
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FindBugs-IDEA">
+    <minPriority>High</minPriority>
+    <plugins>
+      <plugin id="com.alibaba.amon" enabled="true">
+        <url>file:/$APPLICATION_CONFIG_DIR$/my-setting/FindbugsPlugin/modules.amon.findbugs-1.0.0-SNAPSHOT.jar</url>
+      </plugin>
+    </plugins>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <analyzeBeforeCheckIn>true</analyzeBeforeCheckIn>
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>GSPGrailsGroovy</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Gradle</id>
+          </State>
+          <State>
+            <id>GrailsGroovy</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
+            <id>Kotlin</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>MavenMigrationKotlin</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>MigrationKotlin</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>OSGi</id>
+          </State>
+          <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugsGradle</id>
+          </State>
+          <State>
+            <id>Style issuesKotlin</id>
+          </State>
+          <State>
+            <id>WSDL</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

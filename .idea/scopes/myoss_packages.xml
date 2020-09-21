@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="myoss-packages" pattern="src[*]:com.github.myoss..*||test[*]:com.github.myoss..*||src[*]:app.myoss..*||test[*]:app.myoss..*" />
+</component>

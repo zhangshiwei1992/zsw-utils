@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="yifenqi-packages" pattern="src[*]:com.yifenqi..*||test[*]:com.yifenqi..*" />
+</component>
